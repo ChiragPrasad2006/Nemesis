@@ -91,6 +91,9 @@ crashlytics-build.properties
 /[Aa]ssets/**/TDImportCache/
 /[Aa]ssets/**/TDImportCache.meta
 
+# MCP for Unity (local package clone - exclude .git subfolder)
+/Packages/com.coplaydev.unity-mcp/.git/
+
 # Unity Crash Recovery generated files
 /[Aa]ssets/_Recovery/
 /[Aa]ssets/_Recovery.meta
